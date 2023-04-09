@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body
+  class="m-0 p-0 box-border bg-white lg:h-screen lg:grid justify-items-center content-center items-center font-Hanken">
+  <main class="lg:flex lg:max-w-2xl lg:shadow-2xl lg:rounded-3xl">
+    <div
+      class="bg-gradient-to-t from-lightRoyalBlueBackground from-10% to-lightSlateBlueBackground text-center lg:w-6/12 lg:rounded-3xl rounded-b-3xl lg:px-0 px-10 py-4 text-white">
+      <p class="text-lightLavender my-3">Your Result</p>
+      <div class="my-3 inline-block rounded-full bg-gradient-to-t from-persianBlueCircle to-violetBlueCircle px-8 py-6 lg:px-12 lg:py-10">
+        <p class="text-5xl">76</p>
+        <p class="text-lightLavender text-sm my-0.5">of 100</p>
+      </div>
+      <div class="lg:mt-10 px-6 my-2">
+        <h1 class="text-2xl my-2">Great</h1>
+        <p class="font-light text-lightLavender text-sm my-2 lg:mx-10">
+          You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="px-8 py-4 flex flex-col lg:w-6/12">
+      <h2 class="font-bold my-2">
+        Summary
+      </h2>
+      <ul class="flex flex-col gap-4 my-4">
+        <li class="list-none flex justify-between text-sm bg-lightRedBG border-0 rounded-lg px-3 py-4">
+          <p class="flex gap-3"><img src="./assets/images/icon-reaction.svg" alt="reaction-img" class="block">
+            <span class="text-lightRed font-bold">Reaction</span>
+          </p>
+          <p class="font-bold">
+            <span>80</span>
+            <span class="text-lightLavender"> / 100</span>
+          </p>
+        </li>
+        <li class="list-none flex justify-between text-sm bg-orangeyYellowBG border-0 rounded-lg px-3 py-4">
+          <p class="flex gap-3"><img src="./assets/images/icon-memory.svg" alt="memory-img">
+            <span class="text-orangeyYellow font-bold">Memory</span>
+          </p>
+          <p class="font-bold">
+            <span>92</span>
+            <span class="text-lightLavender"> / 100</span>
+          </p>
+        </li>
+        <li class="list-none flex justify-between text-sm bg-greenTealBG border-0 rounded-lg px-3 py-4">
+          <p class="flex gap-3"><img src="./assets/images/icon-verbal.svg" alt="verbal-img">
+            <span class="text-greenTeal font-bold">Verbal</span>
+          </p>
+          <p class="font-bold">
+            <span>61</span>
+            <span class="text-lightLavender"> / 100</span>
+          </p>
+        </li>
+        <li class="list-none flex justify-between text-sm bg-cobaltBlueBG border-0 rounded-lg px-3 py-4">
+          <p class="flex gap-3"><img src="./assets/images/icon-visual.svg" alt="visual-img">
+            <span class="text-cobaltBlue font-bold">Visual</span>
+          </p>
+          <p class="font-bold">
+            <span>72</span>
+            <span class="text-lightLavender"> / 100</span>
+          </p>
+        </li>
+      </ul>
+
+
+      <button
+        class="bg-darkGrayBlue hover:bg-lightRoyalBlueBackground text-white py-3 px-2 border-0 rounded-3xl my-2">Continue</button>
+    </div>
+
+  </main>
+
+</body>
+
+</html>
